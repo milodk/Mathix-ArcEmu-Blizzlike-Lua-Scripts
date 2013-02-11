@@ -1,5 +1,6 @@
 --High Interrogator Gerstahn <Twilight's Hammer Interrogator> SPELL FIXES
 -- Feel free to remove spells that's already fixed.
+-- By Mathix of ac-web.org
 
 -- Manaburn
 function OnCastManaBurn(event, plr, spellid)
