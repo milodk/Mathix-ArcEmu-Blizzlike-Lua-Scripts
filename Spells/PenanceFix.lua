@@ -1,3 +1,5 @@
+-- By Mathix of ac-web.org
+
 function PriestPenanceFix(event, plr, spellid)
 	if (spellid == 47666) then
 		local target = plr:GetSelection()
