@@ -5,7 +5,7 @@ function PriestPenanceFix(event, plr, spellid)
 		local target = plr:GetSelection()
 		local distance = plr:GetDistance(target)
 
-		if target:IsFriendly() == true and distance <= 30 and target:IsPlayer() == true then
+		if target:IsFriendly() == true and distance <= 40 and target:IsPlayer() == true then
 			local Health = target:GetHealth()
 			local HealAmount = math.random(650, 756)
 			target:SetHealth(Health+HealAmount)
