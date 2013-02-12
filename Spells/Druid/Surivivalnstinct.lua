@@ -18,3 +18,5 @@ end
 function ResetHP(player, event)
 	player:SetHealth(plr, maxhp)
 end
+
+RegisterServerHook(10, "SurivalInstincts")
