@@ -3,7 +3,7 @@
 function PriestPenanceFix(event, plr, spellid)
 	if (spellid == 47666) then
 		local target = plr:GetSelection()
-		local distance = plr:GetDistance(target)
+		local distance = plr:GetDistanceYards(target)
 
 		if target:IsFriendly() == true and distance <= 40 and target:IsPlayer() == true then
 			local Health = target:GetHealth()
