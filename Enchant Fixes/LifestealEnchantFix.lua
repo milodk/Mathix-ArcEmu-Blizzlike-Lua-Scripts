@@ -8,7 +8,9 @@ function LifestealEnchantFix(effectIndex, spell)
 	if procnumber = 1 then
 		local plr = spell:GetCaster()
 		local maxhealth = plr:GetHealth()
+		local lifestealenemy = plr:GetSelection()
 		plr:SetHealth(maxhealth+30)
+		plr:DealDamage(lifestealenemy, 30, 27104)
 	end
 end
 
