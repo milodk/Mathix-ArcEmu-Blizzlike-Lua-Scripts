@@ -1,4 +1,4 @@
---[[Script by Domicroat of ac-web.org 
+--[[Originally made by: ???
 Edit by Mathix of ac-web.org]]
 
 function LordMarrowgar_OnCombat (pUnit, Event)
