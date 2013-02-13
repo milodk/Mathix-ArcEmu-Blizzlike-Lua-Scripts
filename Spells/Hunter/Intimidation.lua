@@ -11,4 +11,3 @@ function IntimidationFix(event, plr, spellid)
 end
 
 RegisterServerHook(10, "IntimidationFix")
-RegisterUnitEvent(pet, 13, "
